@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <link rel="stylesheet" href="Recipes.css">
+  <title>Recipes For Your Ingredients</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a46ed112f9.js" crossorigin="anonymous"></script>
+  <!-- CloudFlare -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- Applying Font Awesome : <i class="fa-solid fa-user"></i> or <span class="fa-solid fa-user"></span> -->
+
+  <div class="container">
+    <div class="meal-wrapper">
+
+      <div class="meal-search">
+        <h2 class="title">Find Meals for Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <cite> - Jamie Oliver</cite>
+        </blockquote>
+
+        <div class="meal-search-box">
+          <input type="text" class="search-content" placeholder="Enter ingredient" id="search-input">
+          <button type="submit" class="search-btn btn" id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title">Your search result</h2>
+        
+        <div id="meal">
+          <!-- Meal item Card -->
+        </div>
+        
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+            <i class="fa-solid fa-xmark" style="color: #080808;"></i>
+          </button>
+          <!-- Meal Content -->
+          <div class="meal-details-content">
+            <!-- 
+            <h2 class="recipe-title">Meals Name Here</h2>
+            <p class="recipe-category">Category Name</p>
+            <div class="recipe-instructions">
+              <h3>Instructions:</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Hic a quia excepturi, iusto provident, officiis nihil quasi necessitatibus, 
+              tempore aliquam obcaecati! 
+              Dolorem, quas aut perspiciatis veritatis doloribus fugit quod at!</p>
+            </div>
+            <div class="recipe-meal-img">
+              <img src="food.jpg" alt="">
+            </div>
+            <div class="recipe-link">
+              <a href="#" target="_blank">Watch Video</a>
+            </div> 
+            -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="Recipes.js"></script>
+</body>
+
+</html>
