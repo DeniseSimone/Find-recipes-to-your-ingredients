@@ -60,7 +60,7 @@ const getMealRecipe = (e) => {
   };
 }
 
-/* Create a modal */
+/* CREATE A MODAL */
 const mealRecipeModal = (meal) => {
   console.log(meal);
   meal = meal[0];
@@ -81,8 +81,6 @@ const mealRecipeModal = (meal) => {
   mealDetailsContent.innerHTML = html;
   mealDetailsContent.parentElement.classList.add('showRecipe');
 }
-
-
 
 // event Listeners
 searchBtn.addEventListener('click', getMealList);
